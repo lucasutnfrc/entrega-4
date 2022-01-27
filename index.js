@@ -1,3 +1,7 @@
+//Para iniciar servidor
+//npm install
+//nodemon index.js
+
 /* Modulos */
 const express = require('express');
 const bp = require('body-parser');
@@ -15,7 +19,7 @@ app.use(bp.urlencoded({ extended: true }));
 /* Productos */
 
 const productos = [
-    
+
 ];
 
 /* Rutas */
